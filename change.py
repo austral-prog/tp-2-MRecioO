@@ -11,5 +11,3 @@ def change():
     print(int(money - expense))
     print("Centavos:")
     print(int(((money - expense) % 1) *100))
-
-change()
